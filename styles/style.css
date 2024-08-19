@@ -28,6 +28,14 @@ header {
     margin: 0 auto;    
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--primaryBG);
+    opacity: .8;
+}
+
 body {
     font-family: "Oswald", sans-serif;
 }
@@ -87,12 +95,13 @@ a {
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 3rem 0.04rem 3rem;    
+    padding: 1rem 3rem 0.04rem 3rem;    
 }
 
 .nav ul {
     list-style: none;
     display: flex;
+    padding-top: 0.8rem;
     gap: 1rem;
 }
 
@@ -110,7 +119,7 @@ a {
 nav ul li {
     display: flex;
     align-items: center;
-    padding: 2px;
+    padding: 1rem;
     border-radius: 5px;
 }
 
