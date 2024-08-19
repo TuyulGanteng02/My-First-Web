@@ -108,6 +108,7 @@ a {
 .logo {    
     display: flex;
     align-items: center;
+    padding-bottom: 1rem;
 }
 
 .logo img {    
@@ -119,7 +120,7 @@ a {
 nav ul li {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem;    
     border-radius: 5px;
 }
 
