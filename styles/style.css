@@ -33,7 +33,7 @@ header {
     top: 0;
     left: 0;
     background-color: var(--primaryBG);
-    opacity: .8;
+    opacity: 0.9;
 }
 
 body {
@@ -131,6 +131,7 @@ nav ul li:hover {
 
 nav ul li a {
     color: var(--primaryTextColor);
+    text-decoration: none;
 }
 
 .burger div {
