@@ -12,6 +12,7 @@
     }
 
     .toggle-burger .line-1 {
+        background-color: var(--primaryBG);
         transform: rotate(-45deg) translate(-5px, 8px);
     }
 
@@ -20,6 +21,7 @@
     }
 
     .toggle-burger .line-3 {
+        background-color: var(--primaryBG);
         transform: rotate(45deg) translate(-5px, -8px);
     }
 
@@ -30,7 +32,7 @@
         top: 0;
         height: 100vh;
         flex-direction: column;
-        background: var(--primaryBG);
+        background: var(--primaryTextColor);
         border-left: 1px solid var(--borderColor);
         z-index: 9;
         transform: translateX(100%);
@@ -46,6 +48,19 @@
 
     nav ul li {
         padding: 5px;
+    }
+
+    nav ul li a {
+        color: var(--primaryBG);
+    }
+
+    nav ul li a:hover {
+        color: var(--primaryTextColor);
+    }
+
+
+    .btn {
+        background-color: var(--primaryBG);
     }
 
     .nav-active {
