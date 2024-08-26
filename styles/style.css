@@ -169,7 +169,8 @@ nav ul li a {
 }
 
 .hero-right img {
-    width: 95%;    
+    width: 100%;
+    max-height: 630px;
 }
 
 .hero-right {
